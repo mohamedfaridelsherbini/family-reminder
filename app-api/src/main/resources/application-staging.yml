@@ -1,5 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://staging-db:5432/family
-    username: ${DB_USER}
-    password: ${DB_PASS}
