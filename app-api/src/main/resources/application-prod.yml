@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://prod-db:5432/family
+    username: ${DB_USER}
+    password: ${DB_PASS}
+  flyway:
+    baseline-on-migrate: true
